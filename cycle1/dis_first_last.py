@@ -4,4 +4,4 @@ print("Enter the colors:")
 for x in range(count):
     color = input()
     clrs.append(color)
-print("First Color: ",clrs[0]," Last Color: ",clrs[count-1])
+print("First Color: ", clrs[0], " Last Color: ", clrs[count - 1])

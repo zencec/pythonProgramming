@@ -11,4 +11,4 @@ for x in range(n2):
     color = input()
     clist2.add(color)
 diff = clist1.difference(clist2)
-print("COLORS IN LIST1 NOT IN LIST2: ",diff)
+print("COLORS IN LIST1 NOT IN LIST2: ", diff)

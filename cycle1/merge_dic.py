@@ -1,17 +1,17 @@
-mydict1={}
+mydict1 = {}
 print("Enter elements of first dic")
 while True:
-    key=input("enter a key(or 'q' to quit):")
-    if key=='q':
+    key = input("enter a key(or 'q' to quit):")
+    if key == "q":
         break
-    value=int(input("enter a value :"))
-    mydict1[key]=value
+    value = int(input("enter a value :"))
+    mydict1[key] = value
 print("Enter elements of second dic")
-mydict2={}
+mydict2 = {}
 while True:
-    key=input("enter a key(or 'q' to quit):")
-    if key=='q':
+    key = input("enter a key(or 'q' to quit):")
+    if key == "q":
         break
-    value=int(input("enter a value :"))
-    mydict2[key]=value
-print(mydict1|mydict2)
+    value = int(input("enter a value :"))
+    mydict2[key] = value
+print(mydict1 | mydict2)
