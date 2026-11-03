@@ -1,8 +1,8 @@
 result = []
-start = int(input("Enterthestartingrange(four-digitnumber):"))
+start = int(input("Enter the starting range(four-digit number):"))
 end = int(input("Enter the ending range(four-digit number): "))
 if start < 1000 or end > 9999 or start > end:
-    print("Invalidrange.Pleaseenteravalidfour-digitrange.")
+    print("Invalid range . Please enter avalid four-digit range.")
 else:
     for num in range(start, end + 1):
         if num % 2 == 0:
